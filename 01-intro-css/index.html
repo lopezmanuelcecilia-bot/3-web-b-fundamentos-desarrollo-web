@@ -1,55 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intro a CSS</title>
-    
-<!-- Forma 3 -->
-<link rel="stylesheet" href="./style.css">
-<!-- forma 1 Interno -->
-    <style>
-        h1{
-            background-color: red;
-        }
-    </style>
-    </head>
-    <!-- forma 2 Inline-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro a CSS</title>
+  <!-- Forma 3: Más efectiva -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Forma 1: CSS interno -->
+  <style>
+    h1{
+      background-color: blueviolet;
+    }
+  </style>
+</head>
 <body>
 
-    <h1 style="color: white;">Hola CSS</h1>
+  <!-- Forma 2: CSS Inline -->
+  <h1 style="color: white">Hola CSS</h1>
+  <section id="destacados">
+    <h1 class="bg-aqua color-blue">Hola CSS</h1>
+    <h1 class="bg-aqua color-blue">Hola CSS</h1>
+  </section>
 
-    <h1 class= "bg-aqua color-blue">Hola CSS</h1>
+  <!-- Estructura para selector avanzado -->
 
-    <h1 class= "bg-aqua color tomato">Hola CSS</h1>
-
-<form class="form-registro">
+  <form class="form-registro">
     <div class="datos-persona">
-    <label for="nombre">Nombre</label>
-    <input type="text" class="input-nombre">
+      <label for="">Nombre</label>
+      <input type="text" class="input-nombre">
     </div>
-</form>
-
-<form class="form-registro">
     <div class="datos-persona">
-    <label for="nombre">Nombre</label>
-    <input type="text" class="input-nombre">
+      <label for="">Nombre</label>
+      <input type="text" class="input-nombre">
     </div>
-</form>
+  </form>
 
-<br>
-<hr>
-<br>
-<button>Click</button>
-<button>Click</button>
-<button>Click</button>
-<button>Click</button>
+  <form class="form-registro">
+    <div class="datos-mascota">
+      <label for="">Nombre</label>
+      <input type="text" class="input-nombre">
+    </div>
+  </form>
 
-<p>Click</p>
-<p>Click</p>
-<p>Click</p>
-<p>Click</p>
+  <br>
+  <hr>
+  <br>
+
+  <button>Click</button>
+  <button>Click</button>
+  <button>Click</button>
+  <button>Click</button>
+
+  <p>Click</p>
+  <p>Click</p>
+  <p>Click</p>
+  <p>Click</p>
 
 
 
+  
 </body>
 </html>

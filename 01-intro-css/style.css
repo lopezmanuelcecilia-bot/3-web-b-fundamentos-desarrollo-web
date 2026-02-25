@@ -1,7 +1,6 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-size: 2rem;
 }
 
 h1 {
@@ -21,28 +20,32 @@ h1 {
     padding: 20px;
 }
 
-.form-registro .datos-persona .input-nombre{
-  padding: 10px;
-  border-radius: 8px;
-}
-
-form-registro .datos-persona .input-nombre:focus{
-  border: 2px solid tomato;
-  background-color: aquamarine;
-}
-
-button{
+.form-registro .datos-persona {
     display: inline-block;
 }
 
-button:hover{
-    background-color:tomato;
-    color: white;
-    border: none;
+.form-registro .datos-persona .input-nombre {
     padding: 10px;
-    transition-duration: 0.3s;
+    border-radius: 8px;
 }
 
-p{
+.form-registro .datos-persona .input-nombre:focus {
+    border: 2px solid tomato;
+    background-color: aquamarine;
+}
+
+button {
+    display: inline-block;
+}
+
+button:hover {
+    background-color: tomato;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    transition-duration: .5s;
+}
+
+p {
     display: inline-block;
 }
