@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(150px, 1fr, 1fr);
+    background-color: blueviolet;
+    border: 2px solid rgb(140, 42, 42);
+    width: 600px;
+    height: 500px;
+}
+
+.box {
+    width: 40%;
+    height: 100px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 5px;
+}
