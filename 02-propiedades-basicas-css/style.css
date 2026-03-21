@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: blue;
-    color: blanchedalmond;
+    background-color: blueviolet;
+    color: rgb(187, 136, 60);
 }
 
 .titulo {
@@ -42,8 +42,8 @@ button {
 }
 
 #portada img {
-    border: 25px solid orange;
+    border: 25px solid rgb(125, 39, 111);
     padding: 80px;
-    background-color: aliceblue;
+    background-color: blue;
     width: 200px;
 }
